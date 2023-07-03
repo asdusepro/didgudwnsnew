@@ -1,10 +1,15 @@
 
 @import "reset.css";
+@import "variables.css";
 
 @import "status-bar.css";
 @import "welcome.css";
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 body {
+    color: #2e363e;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 1000vh;
 }
