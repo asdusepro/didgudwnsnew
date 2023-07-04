@@ -5,6 +5,7 @@
     padding: var(--horizontal-space);
     padding-top: 30px;
     opacity: 90%;
+    margin-bottom: 15px;
 }
 .screen-header_title{
     font-size: 28px;
@@ -12,4 +13,9 @@
 }
 .screen-header_icon span{
     margin-left: 25px;
+    position: relative;
+}
+.screen-header_icon-point{
+    left: 75px;
+    bottom: 20px;
 }
