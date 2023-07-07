@@ -69,3 +69,57 @@
 .message-row--own .message_info{
     flex-direction: row-reverse;
 }
+.reply{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+}
+.reply .reply-column:first-child{
+    width: 10%;
+}
+.reply .reply-column:last-child{
+    width: 90%;
+    position: relative;
+}
+.reply input{
+    padding: 12px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.reply .reply-column:last-child > i,
+.reply .reply-column:last-child button{
+    position: absolute;
+    
+    right: 20px;
+    top: 10px;
+}
+.reply-column:last-child > i{
+    left: 550px;
+    top: 30px;
+}
+.reply i{
+    opacity: 0.5;
+}
+.reply-column button {
+    
+    background-color: rgb(255, 213, 0);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    bottom: 30px;
+}
+.reply_column button i{
+    opacity: 1;
+}
+.reply-column button:focus
+.reply-column button:active{
+    outline: none;
+}

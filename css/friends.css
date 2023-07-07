@@ -22,3 +22,26 @@
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);}
+@keyframes hideSplashScreen{
+    form{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash-screen{
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 0.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+    
